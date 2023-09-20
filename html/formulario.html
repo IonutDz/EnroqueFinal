@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="../css/formulario.css" />
+
+<head></head>
+<header></header>
+
+<body>
+    <div id="form">
+        <form class="form" action="datos/datos.php" method="post">
+            <fieldset>
+                <legend>Formulario</legend>
+              
+                <div class="col">
+                    <p>
+                        <label for="nombre">Nombre:<br></label> <input type="text"
+                            name="nombre">
+                    </p>
+                    <p>
+                        <label for="apellidos"> Apellidos: <br></label> <input type="text"
+                            name="apellidos">
+                    </p>
+                </div>
+                
+                <div class="col">
+                    <p>
+                        <label for="Email">Email:<br></label> <input type="text" name="email">
+                    </p>
+                </div>
+                <div class="col">
+                    <p>
+                        <label for="sexo">Sexo:<br></label> <input type="radio"
+                            value="Hombre" name="sexo">Hombre<input type="radio" value="Mujer"
+                            name="sexo">Mujer
+                    </p>
+                  
+                </div>
+                <p>
+                    <input type="submit" value="Enviar"> <input type="reset"
+                        value="Borrar">
+                </p>
+            </fieldset>
+    
+        </form>
+    </div>
+</body>
