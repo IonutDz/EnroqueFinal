@@ -30,9 +30,16 @@ body {
 	width: 20%;
 	justify-content: space-between;
 }
-
-block01 {
 	
+=======
+.contenedor3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.contenedor3 div h2 {
     font-weight:700;
     
 >>>>>>> 71e34f888d594b2155bd0b8bc1f14030635fd0f1
