@@ -1,0 +1,5 @@
+Negro: #121212
+Gris: #282828
+Blanco: #FFFFFF
+Verde cian: #A1C878
+verde: #81B54B
