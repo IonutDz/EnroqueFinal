@@ -1,3 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, p{
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#cabecero {
+	height:auto;
+	background-color: #A1C878;
+	padding: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-bottom: 50px;
+}
+#menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#titulo {
+	display: flex;
+}
+#titulo img {
+	height: 115px;
+}
+#menu_pag {
+	display: flex;
+	width: 20%;
+	justify-content: space-between;
+}
 
 label {
 	font-weight: bold;

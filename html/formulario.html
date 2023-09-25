@@ -1,63 +1,82 @@
 <!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href="../css/formulario.css" />
+<html>
+	<head>
+	<Title>Contacto</Title>
+	<link rel="stylesheet" type="text/css" href="../css/formulario.css" />
+	</head>
+	<body>
 
-<head></head>
-<header></header>
+		<!-- Header: encabezado de la pagina -->
+		<div id="cabecero">
+			<div id="menu">
+				<div id="titulo">
+					<img src="../image/EnroqueFinalLogo_Mesa de trabajo_01.png">
+					<div>
+						<h1>Enroque Final</h1>
+						<p>Ajedrez de los maestros</p>  
+					</div>
+				</div>
+				<div id="menu_pag">
+					<p>Inicio</p>
+					<p>Galeria</p>
+					<p>Contacto</p>
+				</div>
+			</div>
+		</div>
+		
+		<div id="form" class="field">
 
-<body>
-    
-    <div id="form" class="field">
+			<div>
+			  <p>
+				<label for="nombre">Nombre:<br></label>  
+				<input id="nombre">
+			  </p>
+			</div>
+		  
+			<div class="field">
+			  <p>
+			   <label for="apellidos">Apellidos:<br></label>
+			   <input id="apellidos">
+			  </p>
+			</div>
+		  
+			<div id="email" class="field">
+			  <p>
+				<label for="email">Email:<br></label>
+				<input id="email">
+			  </p>
+			</div>
+		  
+			<div class="field">
+			  <p>
+				<label for="telefono">Teléfono:<br></label>
+				<input id="telefono">
+			  </p>
+			</div>
+			<div class="field">
 
-        <div>
-          <p>
-            <label for="nombre">Nombre:<br></label>  
-            <input id="nombre">
-          </p>
-        </div>
-      
-        <div class="field">
-          <p>
-           <label for="apellidos">Apellidos:<br></label>
-           <input id="apellidos">
-          </p>
-        </div>
-      
-        <div id="email" class="field">
-          <p>
-            <label for="email">Email:<br></label>
-            <input id="email">
-          </p>
-        </div>
-      
-        <div class="field">
-          <p>
-            <label for="telefono">Teléfono:<br></label>
-            <input id="telefono">
-          </p>
-        </div>
-        <div class="field">
-
-            <p>
-              <label for="sexo">Sexo:</label>
-            </p>
-          
-            <div class="radio-group">
-                <label for="hombre">Hombre</label> 
-                <input type="radio" id="hombre" name="sexo" value="hombre">
-            
-                <label for="mujer">Mujer</label>
-                <input type="radio" id="mujer" name="sexo" value="mujer">
-              </div>
-          
-          </div>
-        <div id="mensaje" class="field">
-          <p>
-            <label for="mensaje">Mensaje:<br></label>
-            <textarea id="mensaje"></textarea>
-          </p>
-        </div>
-        <div id="submit" class="field">
-            <input type="submit" value="Enviar"> 
-          </div>
-      </div>
-</body>
+				<p>
+				  <label for="sexo">Sexo:</label>
+				</p>
+			  
+				<div class="radio-group">
+					<label for="hombre">Hombre</label> 
+					<input type="radio" id="hombre" name="sexo" value="hombre">
+				
+					<label for="mujer">Mujer</label>
+					<input type="radio" id="mujer" name="sexo" value="mujer">
+				  </div>
+			  
+			  </div>
+			<div id="mensaje" class="field">
+			  <p>
+				<label for="mensaje">Mensaje:<br></label>
+				<textarea id="mensaje"></textarea>
+			  </p>
+			</div>
+			<div id="submit" class="field">
+				<input type="submit" value="Enviar"> 
+			  </div>
+		  </div>
+	</body>
+</html>
