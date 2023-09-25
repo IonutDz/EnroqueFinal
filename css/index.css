@@ -1,5 +1,9 @@
 body {
+    margin: 0;
+    padding: 0;
+}
 
+<<<<<<< HEAD
 }
 
 #cabecero {
@@ -29,4 +33,7 @@ body {
 
 block01 {
 	
+    font-weight:700;
+    
+>>>>>>> 71e34f888d594b2155bd0b8bc1f14030635fd0f1
 }

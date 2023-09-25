@@ -1,5 +1,5 @@
-Negro: #121212
-Gris: #282828
-Blanco: #FFFFFF
-Verde cian: #A1C878
-verde: #81B54B
+Texto y parte de fondo Negro: #121212
+fondo Gris: #282828
+fondo y texto Blanco: #FFFFFF
+color secundario Verde cian: #A1C878
+color principal verde: #81B54B
