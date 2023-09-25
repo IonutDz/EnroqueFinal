@@ -1,0 +1,25 @@
+
+
+p {
+	margin-right: 15px;
+}
+
+.col {
+	display: flex;
+}
+
+.dentro {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+label {
+	font-weight: bold;
+}
+#form{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
