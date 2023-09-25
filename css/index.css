@@ -3,9 +3,6 @@ body {
     padding: 0;
 }
 
-<<<<<<< HEAD
-}
-
 #cabecero {
 	height:25em;
 	background-color: #A1C878;
@@ -31,7 +28,6 @@ body {
 	justify-content: space-between;
 }
 	
-=======
 .contenedor3 {
     display: flex;
     justify-content: center;
@@ -42,5 +38,4 @@ body {
 .contenedor3 div h2 {
     font-weight:700;
     
->>>>>>> 71e34f888d594b2155bd0b8bc1f14030635fd0f1
 }
