@@ -5,41 +5,59 @@
 <header></header>
 
 <body>
-    <div id="form">
-        <form class="form" action="datos/datos.php" method="post">
-            <fieldset>
-                <legend>Formulario</legend>
-              
-                <div class="col">
-                    <p>
-                        <label for="nombre">Nombre:<br></label> <input type="text"
-                            name="nombre">
-                    </p>
-                    <p>
-                        <label for="apellidos"> Apellidos: <br></label> <input type="text"
-                            name="apellidos">
-                    </p>
-                </div>
-                
-                <div class="col">
-                    <p>
-                        <label for="Email">Email:<br></label> <input type="text" name="email">
-                    </p>
-                </div>
-                <div class="col">
-                    <p>
-                        <label for="sexo">Sexo:<br></label> <input type="radio"
-                            value="Hombre" name="sexo">Hombre<input type="radio" value="Mujer"
-                            name="sexo">Mujer
-                    </p>
-                  
-                </div>
-                <p>
-                    <input type="submit" value="Enviar"> <input type="reset"
-                        value="Borrar">
-                </p>
-            </fieldset>
     
-        </form>
-    </div>
+    <div id="form" class="field">
+
+        <div>
+          <p>
+            <label for="nombre">Nombre:<br></label>  
+            <input id="nombre">
+          </p>
+        </div>
+      
+        <div class="field">
+          <p>
+           <label for="apellidos">Apellidos:<br></label>
+           <input id="apellidos">
+          </p>
+        </div>
+      
+        <div id="email" class="field">
+          <p>
+            <label for="email">Email:<br></label>
+            <input id="email">
+          </p>
+        </div>
+      
+        <div class="field">
+          <p>
+            <label for="telefono">Teléfono:<br></label>
+            <input id="telefono">
+          </p>
+        </div>
+        <div class="field">
+
+            <p>
+              <label for="sexo">Sexo:</label>
+            </p>
+          
+            <div class="radio-group">
+                <label for="hombre">Hombre</label> 
+                <input type="radio" id="hombre" name="sexo" value="hombre">
+            
+                <label for="mujer">Mujer</label>
+                <input type="radio" id="mujer" name="sexo" value="mujer">
+              </div>
+          
+          </div>
+        <div id="mensaje" class="field">
+          <p>
+            <label for="mensaje">Mensaje:<br></label>
+            <textarea id="mensaje"></textarea>
+          </p>
+        </div>
+        <div id="submit" class="field">
+            <input type="submit" value="Enviar"> 
+          </div>
+      </div>
 </body>
