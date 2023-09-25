@@ -3,6 +3,10 @@ body {
     padding: 0;
 }
 
+h1, h2, p{
+	font-family:Arial, Helvetica, sans-serif;
+}
+
 #cabecero {
 	height:25em;
 	background-color: #A1C878;
@@ -20,14 +24,33 @@ body {
 	display: flex;
 }
 #titulo img {
-	height: 120px;
+	height: 115px;
 }
 #menu_pag {
 	display: flex;
 	width: 20%;
 	justify-content: space-between;
 }
-	
+#contenido_menu {
+	width: 30em;
+	margin: 5em;
+}
+
+#block01 {
+	padding: 15px;
+	display: grid;
+	grid-template-columns: 200px auto; 
+	justify-content: center;
+}
+#block01 img {
+	width: 200px;
+	border-radius: 5px;
+}
+#block01 div {
+	padding: 15px;
+	width: 500px;
+}
+
 .contenedor3 {
     display: flex;
     justify-content: center;
@@ -37,5 +60,4 @@ body {
 
 .contenedor3 div h2 {
     font-weight:700;
-    
 }
