@@ -41,6 +41,7 @@ h1, h2, p{
     padding: 20px;
     font-size: 18px;
     color: #000000;
+   /* overflow-wrap: anywhere; */
 }
 
 .galeria {

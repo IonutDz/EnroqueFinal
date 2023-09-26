@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
-	<head>
+
+<head>
 	<Title>Contacto</Title>
 	<link rel="stylesheet" type="text/css" href="../css/formulario.css" />
-	</head>
-	<body>
-
-		<!-- Header: encabezado de la pagina -->
+</head>
+<body>
+	<header>
 		<div id="cabecero">
 			<div id="menu">
 				<div id="titulo">
 					<img src="../image/EnroqueFinalLogo_Mesa de trabajo_01.png">
 					<div>
 						<h1>Enroque Final</h1>
-						<p>Ajedrez de los maestros</p>  
+						<p>Ajedrez de los maestros</p>
 					</div>
 				</div>
 				<div id="menu_pag">
@@ -23,60 +23,66 @@
 				</div>
 			</div>
 		</div>
-		
+	</header>
+	<div id="contact-form-container">
+	<form id="contact-form" action="tu_archivo_de_procesamiento.php" method="POST">
+		<h1>CONTACTO</h1>
 		<div id="form" class="field">
-
 			<div>
-			  <p>
-				<label for="nombre">Nombre:<br></label>  
-				<input id="nombre">
-			  </p>
+				<p>
+					<label for="nombre">Nombre:<br></label>
+					<input id="nombre">
+				</p>
 			</div>
-		  
+
 			<div class="field">
-			  <p>
-			   <label for="apellidos">Apellidos:<br></label>
-			   <input id="apellidos">
-			  </p>
+				<p>
+					<label for="apellidos">Apellidos:<br></label>
+					<input id="apellidos">
+				</p>
 			</div>
-		  
+
 			<div id="email" class="field">
-			  <p>
-				<label for="email">Email:<br></label>
-				<input id="email">
-			  </p>
+				<p>
+					<label for="email">Email:<br></label>
+					<input id="email">
+				</p>
 			</div>
-		  
+
 			<div class="field">
-			  <p>
-				<label for="telefono">Teléfono:<br></label>
-				<input id="telefono">
-			  </p>
+				<p>
+					<label for="telefono">Teléfono:<br></label>
+					<input id="telefono">
+				</p>
 			</div>
 			<div class="field">
 
 				<p>
-				  <label for="sexo">Sexo:</label>
+					<label for="sexo">Sexo:</label>
 				</p>
-			  
+
 				<div class="radio-group">
-					<label for="hombre">Hombre</label> 
+					<label for="hombre">Hombre</label>
 					<input type="radio" id="hombre" name="sexo" value="hombre">
-				
+
 					<label for="mujer">Mujer</label>
 					<input type="radio" id="mujer" name="sexo" value="mujer">
-				  </div>
-			  
-			  </div>
+				</div>
+
+			</div>
 			<div id="mensaje" class="field">
-			  <p>
-				<label for="mensaje">Mensaje:<br></label>
-				<textarea id="mensaje"></textarea>
-			  </p>
+				<p>
+					<label for="mensaje">Mensaje:<br></label>
+					<textarea id="mensaje"></textarea>
+				</p>
 			</div>
 			<div id="submit" class="field">
-				<input type="submit" value="Enviar"> 
-			  </div>
-		  </div>
-	</body>
+				<input type="submit" value="Enviar">
+			</div>
+
+		</div>
+	</form>
+</div>
+</body>
+
 </html>
