@@ -1,30 +1,37 @@
 body {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
-h1, h2, p{
-	font-family:Arial, Helvetica, sans-serif;
+
+h1,
+h2,
+p {
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 #cabecero {
-	height:auto;
+	height: auto;
 	background-color: #A1C878;
 	padding: 15px;
 	padding-left: 50px;
 	padding-right: 50px;
 	margin-bottom: 50px;
 }
+
 #menu {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
+
 #titulo {
 	display: flex;
 }
+
 #titulo img {
 	height: 115px;
 }
+
 #menu_pag {
 	display: flex;
 	width: 20%;
@@ -33,46 +40,61 @@ h1, h2, p{
 
 label {
 	font-weight: bold;
-  }
-  
-  input, 
-  textarea {
+}
+
+input,
+textarea {
 	width: 100%;
 	padding: 5px;
-  }
-  
-  #form {
+}
+
+form#contact-form {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: left;
+}
+#contact-form h1{
+	text-align: center;
+}
+#form {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 20px;
 	max-width: 500px;
 	margin: 0 auto;
-  }
-  
-  #email,
-  #mensaje, #submit {
+}
+
+#email,
+#mensaje,
+#submit {
 	grid-column: span 2;
-  }
-  
-  .field {
+}
+
+.field {
 	display: flex;
 	flex-direction: column;
-  }	
-  
-  .field p {
+}
+
+.field p {
 	margin: 5px 0;
-  }
-  .radio-group {
+}
+
+.radio-group {
 	display: flex;
 	align-items: center;
-  }
-  
-  .radio-group label {
-	font-weight: normal;
-  } 
-  
+}
 
-  #submit input[type="submit"] {
+.radio-group label {
+	font-weight: normal;
+}
+
+
+#submit input[type="submit"] {
 	width: 100%;
 	background-color: #4CAF50;
 	color: white;
@@ -80,9 +102,13 @@ label {
 	border: none;
 	border-radius: 4px;
 	cursor: pointer;
-  }
-  
-  #submit input[type="submit"]:hover {
+}
+
+#submit input[type="submit"]:hover {
 	background-color: #45a049;
-  }
-  
+}
+#contact-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
