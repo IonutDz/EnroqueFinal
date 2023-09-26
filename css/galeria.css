@@ -7,12 +7,12 @@ h1, h2, p{
 }
 
 #cabecero {
-	height:auto;
-	background-color: #A1C878;
-	padding: 15px;
-	padding-left: 50px;
-	padding-right: 50px;
+    background-color: #A1C878;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
+
 #menu {
 	display: flex;
 	justify-content: space-between;
@@ -35,13 +35,9 @@ h1, h2, p{
 #titulo_pag {
     text-align: center;
     background-color: #A1C878;
-    height: 120px;
-    text-align: center;
-    background-color: #A1C878;
     padding: 20px;
     font-size: 18px;
     color: #000000;
-   /* overflow-wrap: anywhere; */
 }
 
 .galeria {
@@ -80,4 +76,14 @@ h1, h2, p{
 .foto:hover {
     opacity: 0.8; /* Cambiar la opacidad al hacer hover */
 }
+
+
+.texto_encabezado {
+    padding: 20px;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+}
+
+
 
