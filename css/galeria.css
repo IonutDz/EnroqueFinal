@@ -134,7 +134,11 @@ footer {
     margin-bottom: 10px;
     color: #FFFFFF;
 }
-
+.footer-social img {
+    object-fit: cover;
+    width: 40px;
+   height: 40px;
+}
 .footer-social a {
     text-decoration: none;
     margin-right: 10px;
