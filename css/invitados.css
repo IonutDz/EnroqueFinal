@@ -57,11 +57,16 @@ h1, h2, h3, p {
     align-items: center;
 }
 #block01 {
-    padding: 100px;
+    padding: 50px;
+    margin-top: 25px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-color: #ebecd0;
+    border: 0px;
+    border-radius: 15px;
+
 }
 #block01 img {
     width: 400px;
