@@ -24,11 +24,9 @@ p {
 }
 
 #cabecero {
+    
     height: 35em;
     background-color: #A1C878;
-    padding: 15px;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 #menu {
@@ -39,6 +37,7 @@ p {
 }
 
 #titulo {
+    margin-left: 3%;
     display: flex;
 }
 
@@ -49,6 +48,7 @@ p {
 #menu_pag {
     display: flex;
     width: 20%;
+    padding: 30px;
     justify-content: space-between;
 }
 
@@ -377,6 +377,7 @@ h2, h3 {
     left: 10%;
     width: 80%;
     height: 45%;
+    margin-bottom: 50px;
 
 }
     .contenido p, h3 {
@@ -384,9 +385,6 @@ h2, h3 {
         font-size: small;
     }
     
-
-}
-@media (max-width: 880px) {
     #menu {
         flex-direction: column;
     }
@@ -397,7 +395,7 @@ h2, h3 {
         
     }
     #imagenlado{
-        height: 570px;
+        height: 400px;
     }
     #titulo {
         flex-direction: column;
