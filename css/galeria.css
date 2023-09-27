@@ -6,30 +6,50 @@ h1, h2, p{
 	font-family:Arial, Helvetica, sans-serif;
 }
 
+a{
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    color: black;
+}
+a:not(footer a):not(#titulo a):hover {
+    color: white;
+    border-bottom: 1px solid;
+    background: #cdfeaa;
+  }
+
 #cabecero {
+    height: auto;
     background-color: #A1C878;
-    padding: 15px;
-    padding-left: 50px;
-    padding-right: 50px;
+    display: flex;
+    flex-direction: column; /* Cambia la dirección de flex a columna */
+    align-items: center;
+   
 }
 
 #menu {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	border-bottom: 2px solid black;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
 }
+
 #titulo {
-	display: flex;
+    display: flex;
+    margin-left: 3%;
 }
+
 #titulo img {
-	height: 115px;
+
+    height: 115px;
 }
 
 #menu_pag {
-	display: flex;
-	width: 20%;
-	justify-content: space-between;
+    display: flex;
+    width: 20%;
+    margin-right: 5em;
+    justify-content: space-between;
 }
 
 #titulo_pag {
@@ -53,13 +73,54 @@ h1, h2, p{
     .galeria {
         grid-template-columns: repeat(2, 1fr); /* Cambiar a 2 columnas en pantallas más pequeñas */
     }
+    
+    #menu_pag p {
+        font-size: 16px;
+    }
+
+    .footer-links ul li a {
+        font-size: 16px;
+    }
+
+
+}
+
 
     @media (max-width: 500px) {
         .galeria {
             grid-template-columns: repeat(1, 1fr); /* Cambiar a 1 columna en pantallas aún más pequeñas */
         }
+
+        #menu_pag {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    
+        #menu_pag p {
+            font-size: 14px;
+        }
+    
+        .footer-links ul {
+            padding-left: 0;
+        }
+    
+        .footer-links ul li {
+            margin-bottom: 8px;
+        }
+    
+        .footer-links ul li a {
+            font-size: 14px;
+        }
+    
+        .footer-social a {
+            margin-right: 8px;
+        }
+    
+        .footer-bottom p {
+            font-size: 12px;
+        }
     }
-}
+
 
 .foto {
     justify-content: center;
@@ -87,6 +148,7 @@ h1, h2, p{
 }
 
 footer {
+    margin-top: 2rem;
     background-color: #121212;
     padding: 20px 0;
 }
@@ -151,46 +213,22 @@ footer {
     color: #FFFFFF;
 }
 
-/* Media queries para hacerlo responsive */
-@media (max-width: 768px) {
-    /* Redefine estilos para pantallas más pequeñas aquí */
-    #menu_pag p {
-        font-size: 16px;
-    }
 
-    .footer-links ul li a {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 500px) {
-    /* Redefine estilos para pantallas aún más pequeñas aquí */
-    #menu_pag {
+@media (max-width: 880px) {
+    #menu {
         flex-direction: column;
-        align-items: flex-start;
+    }
+    #menu_pag{
+        display: block;
+        text-align: center;
+        margin: 0;
+        
     }
 
-    #menu_pag p {
-        font-size: 14px;
+    #titulo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
-    .footer-links ul {
-        padding-left: 0;
-    }
-
-    .footer-links ul li {
-        margin-bottom: 8px;
-    }
-
-    .footer-links ul li a {
-        font-size: 14px;
-    }
-
-    .footer-social a {
-        margin-right: 8px;
-    }
-
-    .footer-bottom p {
-        font-size: 12px;
-    }
 }
