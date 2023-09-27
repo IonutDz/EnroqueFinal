@@ -301,10 +301,10 @@ h2, h3 {
 .slider {
     display: block;
     position: absolute;
-    bottom: -90px;
-    left: 380px;
-    width: 1000px;
-    height: 380px;
+    bottom: -12%;
+    left: 25%;
+    width: 70%;
+    height: 52%;
     background-color: blue;
     border-radius: 30px;
     overflow: hidden;
@@ -342,4 +342,22 @@ h2, h3 {
 	
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
+}
+
+
+
+@media screen and (max-width: 770px){
+.slider {
+
+    bottom: -17%;
+    left: 10%;
+    width: 80%;
+    height: 45%;
+
+}
+    .contenido p, h3 {
+        width: 196px;
+        font-size: small;
+    }
+
 }
