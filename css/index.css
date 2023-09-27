@@ -77,12 +77,16 @@ p {
 }
 
 
+
 .contenedor3 {
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
     width: 100%;
 }
+
+
 
 h2, h3 {
     margin: 0;
@@ -120,6 +124,7 @@ h2, h3 {
     justify-content: center;
 }
 
+
 .fila {
     display: flex;
     flex-direction: column;
@@ -148,10 +153,13 @@ h2, h3 {
     flex: 2;
     text-align: left;
     padding-left: 25px;
+
 }
 
 .contenido p {
-    width: 400px;
+    max-width: 400px;
+    min-width: 270px;
+    width: 100%;
 }
 
 
@@ -295,6 +303,22 @@ h2, h3 {
     --progress: -102%;
 }
 
+
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
 /*SLIDER*/
 
 
@@ -346,10 +370,10 @@ h2, h3 {
 
 
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 880px){
 .slider {
 
-    bottom: -17%;
+    bottom: -50%;
     left: 10%;
     width: 80%;
     height: 45%;
@@ -359,5 +383,52 @@ h2, h3 {
         width: 196px;
         font-size: small;
     }
+    
 
+}
+@media (max-width: 880px) {
+    #menu {
+        flex-direction: column;
+    }
+    #menu_pag{
+        display: block;
+        text-align: center;
+        margin: 0;
+        
+    }
+    #imagenlado{
+        height: 570px;
+    }
+    #titulo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #block01 {
+        padding: 40% 0; /* Padding reducido */
+        
+    }
+    #cabecero {
+        height: 50em;
+        padding: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #block01 div, h3, h2 {
+        padding:0;
+        width:200px;
+    }
+    #block01 img {
+        width: 300px;
+        border-radius: 20px;
+    }
+    #block01 {
+        padding: 50px;
+        grid-template-columns: 320px auto;
+        padding-top: 16em;
+    }
+    #contenido_menu p,h2{
+        width: 300px;
+    }
 }
