@@ -139,6 +139,7 @@ form#contact-form {
 }
 #contact-form-container {
     display: flex;
+	padding: 2%;
     justify-content: center;
     align-items: center;
 }
