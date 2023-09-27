@@ -128,6 +128,7 @@ h1, h2, p{
 }
 
 footer {
+    margin-top: 2rem;
     background-color: #121212;
     padding: 20px 0;
 }
