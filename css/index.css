@@ -25,7 +25,7 @@ p {
 
 #cabecero {
     
-    height: 35em;
+    height: 25em;
     background-color: #A1C878;
 }
 
@@ -63,7 +63,7 @@ p {
     grid-template-columns: 400px auto;
     justify-content: center;
     align-items: center;
-    padding-top: 20em;
+    padding-top: 6em;
 }
 
 #block01 img {
@@ -324,11 +324,11 @@ h2, h3 {
 
 .slider {
     display: block;
-    position: absolute;
+    position: relative;
     bottom: -12%;
     left: 25%;
     width: 70%;
-    height: 52%;
+    height: 80%;
     background-color: blue;
     border-radius: 30px;
     overflow: hidden;
@@ -353,6 +353,12 @@ h2, h3 {
 	width: 100%;
 	list-style: none;
 }
+.contenedorSlider {
+    height: 27em;
+    background: linear-gradient(to bottom,  #A1C878 0%,  #A1C878 50%, #ffffff 50%, #ffffff 100%);
+    position: relative;
+}
+
 
 @keyframes cambio {
 	0% {margin-left: 0;}
@@ -429,4 +435,5 @@ h2, h3 {
     #contenido_menu p,h2{
         width: 300px;
     }
+    
 }
