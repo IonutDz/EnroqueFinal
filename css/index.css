@@ -355,6 +355,10 @@ img:not(.slider img):hover{
     opacity: 0.8;
 }
 
+img:not(.slider img):hover{
+    opacity: 0.8;
+}
+
 
 @keyframes cambio {
 	0% {margin-left: 0;}
